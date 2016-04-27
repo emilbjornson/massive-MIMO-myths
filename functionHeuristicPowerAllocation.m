@@ -1,5 +1,5 @@
 function powerallocation = functionHeuristicPowerAllocation(rhos,q,weights)
-%Calculates the power allocation in Theorem 3.5 assuming fixed beamforming
+%Calculates the power allocation in Theorem 3.16 assuming fixed beamforming
 %directions, weighted sum rate maximization, and a total power constraint
 %per base station. This allocation is optimal for coordinated beamforming
 %with zero-forcing transmission. Otherwise, the allocation is heuristic/suboptimal.
@@ -10,7 +10,7 @@ function powerallocation = functionHeuristicPowerAllocation(rhos,q,weights)
 %Coordinated Multi-Cell Systems," Foundations and Trends in Communications
 %and Information Theory, vol. 9, no. 2-3, pp. 113-381, 2013.
 %
-%This is version 1.1. (Last edited: 2014-03-26)
+%This is version 1.11. (Last edited: 2016-04-27)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
