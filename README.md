@@ -3,7 +3,7 @@ Massive MIMO: Ten Myths and One Critical Question
 
 This is a code package is related to the follow scientific magazine article:
 
-Emil Björnson, Erik G. Larsson, Thomas L. Marzetta, “[Massive MIMO: Ten Myths and One Critical Question](http://arxiv.org/pdf/1503.06854),” IEEE Communications Magazine, To appear.
+Emil Björnson, Erik G. Larsson, Thomas L. Marzetta, “[Massive MIMO: Ten Myths and One Critical Question](http://arxiv.org/pdf/1503.06854),” IEEE Communications Magazine, vol. 54, no. 2, pp. 114-123, February 2016.
 
 The package contains a simulation environment, based on Matlab, that reproduces some of the numerical results and figures in the article. *We encourage you to also perform reproducible research!*
 
