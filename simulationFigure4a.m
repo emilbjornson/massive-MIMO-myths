@@ -1,11 +1,12 @@
 %This Matlab script can be used to generate Figure 4a, in the article:
 %
 %Emil Bj?rnson, Erik G. Larsson, Thomas L. Marzetta, "Massive MIMO: Ten
-%Myths and One Critical Question," IEEE Communications Magazine, To appear.
+%Myths and One Critical Question," IEEE Communications Magazine, vol. 54, 
+%no. 2, pp. 114-123, February 2016. 
 %
 %Download article: http://arxiv.org/pdf/1503.06854
 %
-%This is version 1.0 (Last edited: 2015-08-29)
+%This is version 1.01 (Last edited: 2016-04-27)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
@@ -91,9 +92,9 @@ for m = 1:length(Mrange)
         
         %Compute a sum rate with MR precoding
 
-        %Optimize the power allocation with MR precoding using Theorem 3.5
+        %Optimize the power allocation with MR precoding using Theorem 3.16
         %in "Optimal Resource Allocation in Coordinated Multi-Cell Systems"
-        %by Emil Bj?rnson and Eduard Jorswieck
+        %by Emil Björnson and Eduard Jorswieck
         rhos = diag(abs(H*wMR).^2)';
         powerAllocationMR = functionHeuristicPowerAllocation(rhos,Psum,ones(K,1));
         
@@ -111,9 +112,9 @@ for m = 1:length(Mrange)
         sumRateFP(n,m) = sum(log2(1+signalGains));
         
         
-        %Optimize the power allocation with ZF precoding using Theorem 3.5
+        %Optimize the power allocation with ZF precoding using Theorem 3.16
         %in "Optimal Resource Allocation in Coordinated Multi-Cell Systems"
-        %by Emil Bj?rnson and Eduard Jorswieck
+        %by Emil Björnson and Eduard Jorswieck
         rhos = diag(abs(H*wZF).^2)';
         powerAllocationwZF = functionHeuristicPowerAllocation(rhos,Psum,ones(K,1));
         
