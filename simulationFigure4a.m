@@ -1,6 +1,6 @@
 %This Matlab script can be used to generate Figure 4a, in the article:
 %
-%Emil Bj?rnson, Erik G. Larsson, Thomas L. Marzetta, "Massive MIMO: Ten
+%Emil Björnson, Erik G. Larsson, Thomas L. Marzetta, "Massive MIMO: Ten
 %Myths and One Critical Question," IEEE Communications Magazine, vol. 54, 
 %no. 2, pp. 114-123, February 2016. 
 %
