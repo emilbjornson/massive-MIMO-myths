@@ -1,11 +1,12 @@
 %This Matlab script can be used to generate Figure 5, in the article:
 %
-%Emil Bj?rnson, Erik G. Larsson, Thomas L. Marzetta, "Massive MIMO: Ten
-%Myths and One Critical Question," IEEE Communications Magazine, To appear.
+%Emil Björnson, Erik G. Larsson, Thomas L. Marzetta, "Massive MIMO: Ten
+%Myths and One Critical Question," IEEE Communications Magazine, vol. 54, 
+%no. 2, pp. 114-123, February 2016. 
 %
 %Download article: http://arxiv.org/pdf/1503.06854
 %
-%This is version 1.0 (Last edited: 2015-08-29)
+%This is version 1.01 (Last edited: 2016-04-27)
 %
 %License: This code is licensed under the GPLv2 license. If you in any way
 %use this code for research that results in publications, please cite our
