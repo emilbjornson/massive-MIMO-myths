@@ -21,7 +21,8 @@ The statements above are, in fact, completely false. In this overview article, w
 
 ##Content of Code Package
 
-This package contains Matlab-scripts that generate 5 of the simulation figures in the article: simulationFigure2a.m, simulationFigure2b.m, simulationFigure4a.m, simulationFigure4b.m, and simulationFigure5.m
+This package contains C++ code that generates Figure 3 (Myth 4), see the folder simulationFigure3 for details.
+This package also contains Matlab-scripts that generate 5 of the simulation figures in the article: simulationFigure2a.m, simulationFigure2b.m, simulationFigure4a.m, simulationFigure4b.m, and simulationFigure5.m
 
 The package contains 3 additional Matlab functions: checkHexagonal.m, function_capacity_broadcast.m and functionHeuristicPowerAllocation.m. These functions are called by the Matlab scripts.
 
